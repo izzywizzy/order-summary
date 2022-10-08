@@ -1,0 +1,80 @@
+/* html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video 
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} */
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 98%);
+}
+h1{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    padding: 5% 0;
+}
+p{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+}
+a{
+    font-family: 'Red Hat Display', sans-serif;
+    padding-top: 2%;
+    color: hsl(245, 75%, 52%); 
+}
+#order-summary{
+    background-color:white;
+    /* border: 1px solid black; */
+    width:450px;
+    margin-top: 5%;
+    /* padding: 0 15%; */
+    border-radius: 10%;
+}
+.image-header img{
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+p.text{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    padding:5% 15%;
+}
+p.cancel{
+    font-weight: 700;
+}
+.price-info{
+    background-color: hsl(225, 100%, 98%);
+    padding: 5%;
+    margin:2% 5%;
+}
+
+.btn-pay{
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    box-shadow:1px 10px rgb(242, 239, 239);
+    margin: 5% 0;
+    font-weight: 700;
+}
+.btn-pay:hover{
+    background-color:hsl(224, 23%, 55%) !important;
+    color: antiquewhite !important;
+}
+
+@media (max-width: 380px) {
+    #order-summary{
+        background-color:white;
+        /* border: 1px solid black; */
+        width:380px;
+        margin-top: 5%;
+        /* padding: 0 15%; */
+        border-radius: 10%;
+    }
+  }
+  
